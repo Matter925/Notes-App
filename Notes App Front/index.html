@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google Fonts Pre Connect -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Meta Tags -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Fonts Links (Roboto 400, 500 and 700 included) -->
+  <!--<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">-->
+
+  <!-- CSS Files Links -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Title -->
+  <title>Notes App</title>
+</head>
+<body>
+  <div class="container">
+     <div class="notes__sidebar">
+        <h1 class="title">Notes App</h1> 
+        <input type="text" id="title" placeholder="Add Title">
+        <textarea  id="description" placeholder="Add Description"></textarea>
+        <button id="btnSave" > Save</button>
+        <button id="btnDelete" class="btn-delete hidden"  > Delete</button>
+     </div>
+     <div class="notes__container" id="notes__container">
+        
+     </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

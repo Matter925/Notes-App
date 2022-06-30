@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row; 
+    align-items:flex-start;
+    background-color:#cbebf3;
+    
+
+}
+.title{
+    margin-bottom: 30px;
+    text-align: center;
+    color:#1f3030;
+    
+}
+.notes__sidebar{
+    width: 400px;
+    height: 100vh;
+    
+    padding: 50px;
+    border-radius: 30px;
+    background-color:#68acc3;
+}
+
+.notes__sidebar input{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 13px;
+    border-radius: 8px;
+}
+.notes__sidebar textarea{
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 13px;
+    max-width: 100%;
+    border-radius: 8px;
+    
+}
+
+.notes__sidebar button{
+    margin-bottom: 10px;
+    outline:none;
+    border: none;
+    background-color: #3c6769;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;  
+}
+.notes__container{
+    width: 100%;
+    padding: 50px;
+    flex: 1;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.note{
+    padding: 30px;
+    background-color:rgb(129, 221, 224);
+    width: 25%;
+    overflow:hidden; 
+    margin-right: 30px;
+    margin-bottom: 30px;
+    border-radius: 7px;
+}
+
+.note h3{
+    margin-bottom :10px;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(106, 155, 150);
+    border-radius: 4px
+}
+
+.note p{
+    max-height: 200px;
+    overflow:auto;
+    margin-bottom:10px;
+    font-size:15;
+}
+
+.btn-delete{
+    background-color:rgb(32, 46, 48) !important;
+}
+.hidden{
+    display:none;
+}
